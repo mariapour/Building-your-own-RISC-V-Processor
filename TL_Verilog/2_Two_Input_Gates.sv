@@ -1,6 +1,6 @@
 // && means AND, || means OR, ^ means XOR.
 // In SystemVerilog, inputs and outputs must be declared explicitly.
-
+// For vectors, && and || are logical operators, while & and | are bitwise operators.
 
 module two_input_gates (
    input  logic in1,
